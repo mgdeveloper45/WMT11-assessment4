@@ -1,0 +1,11 @@
+[
+    {"id": 1,"title": "The Prophecy","rating": 5,"imageURL": "https://i.scdn.co/image/ab67616d00001e02128ca6b63d83d47c909a43ce"},
+    {"id": 2,"title": "Concerning Hobbits","rating": 5,"imageURL": ""},
+    {"id": 3,"title": "The Shadow Of The Past","rating": 5,"imageURL": ""},
+    {"id": 4,"title": "The Treason Of Isengard","rating": 5,"imageURL": ""},
+    {"id": 5,"title": "The Black Rider","rating": 5,"imageURL": ""},
+    {"id": 6,"title": "At The Sign Of Prancing Pony","rating": 5,"imageURL": ""},
+    {"id": 7,"title": "A Knife In The Dark","rating": 5,"imageURL": ""},
+    {"id": 8,"title": "Flight To The Ford","rating": 5,"imageURL": ""}
+    
+]

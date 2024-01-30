@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="styles.css">
   <head>
     <title>Back End Assessment</title>
   </head>
   <body class="container">
     <div class="randThings">
-      <div class="randBtns">
+      <div class="randBtns randoms">
         <div class="compBtn">
           <button id="complimentButton">Get a compliment</button>
         </div>
@@ -16,13 +17,40 @@
           <button id="lottoButton">Get Lotto Numbers</button>
         </div>
       </div>
-      <div class="randAns">
+      <div class="randAns randoms">
         <div class="compAns"></div>
         <div class="fortuneAns"></div>
         <div class="lottoAns"></div>
       </div>
     </div>
-    
+    <form action="">
+      <input type="text" placeholder="Song title" id="title">
+      <input type="text" placeholder="Song image url" id="img">
+      <section id="ratings-container">
+        <label for="one">
+          <input type="radio" name="ratings" id="one">
+          1
+        </label>
+        <label for="two">
+          <input type="radio" name="ratings" id="two">
+          2
+        </label>
+        <label for="three">
+          <input type="radio" name="ratings" id="three">
+          3
+        </label>
+        <label for="four">
+          <input type="radio" name="ratings" id="four">
+          4
+        </label>
+        <label for="five">
+          <input type="radio" name="ratings" id="five">
+          5
+        </label>
+      </section>
+      <button id="songs">Add Song</button>
+    </form>
+    <section id="song-container"></section>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
     

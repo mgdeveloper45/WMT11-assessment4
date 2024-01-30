@@ -7,6 +7,11 @@ app.use(express.json());
 
 const controller = require('./controller')
 
+app.get("/api/songs", controller.getSongs)
+app.post("/api/songs", controller.createSong)
+app.put("/api/songs/:id", controller.updateSong)
+app.delete("/api/songs/:id", controller.deleteSong)
+
 app.get("/api/compliment", controller.getCompliment);
 app.get("/api/fortune", controller.getFortune);
 app.get("/api/lotto", controller.getLottoNumbers)

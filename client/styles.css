@@ -1,0 +1,13 @@
+.randThings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+.randoms {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 35vh;
+    border: solid black 1px;
+}
